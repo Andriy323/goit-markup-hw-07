@@ -232,6 +232,7 @@ input {
 }
 
 .form-label-policy {
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -249,14 +250,20 @@ input {
 
 .form-checkbox {
   display: flex;
+  align-items: center;
+  justify-content: center;
   width: 16px;
   height: 15px;
   border: 2px solid var(--title-text-color);
   border-radius: 2px;
   margin-right: 7px;
+  transition: border-color var(--anim250-cubic-bezier), 
+  background-color var(--anim250-cubic-bezier);
+  
 }
 
 .checkbox-icon {
+  
   fill: transparent;
   /* transition: border-color var(--anim250-cubic-bezier), background-color var(--anim250-cubic-bezier); */
 }
