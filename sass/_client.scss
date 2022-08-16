@@ -1,0 +1,39 @@
+.client-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 50px;
+  }
+  
+  .client-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .client-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    color: #afb1b8;
+    transition: border-color var(--anim250-cubic-bezier), color var(--anim250-cubic-bezier);
+    &:hover,
+  &:focus {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+  }
+  }
+  
+  .client-logo {
+    fill: currentColor;
+  }
+  
+  

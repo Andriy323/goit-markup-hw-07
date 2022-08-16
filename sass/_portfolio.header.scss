@@ -1,0 +1,66 @@
+.portfolio-btn {
+    padding: 6px 22px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    border-radius: 4px;
+    border: none;
+    color: var(--title-text-color);
+    background-color: #f5f4fa;
+    cursor: pointer;
+    transition: background-color var(--anim250-cubic-bezier), color var(--anim250-cubic-bezier),
+      box-shadow var(--anim250-cubic-bezier);
+  }
+  
+  .portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    border: transparent;
+    color: var(--title-text-color);
+  }
+  .current-btn,
+  .portfolio-btn:hover,
+  .portfolio-btn:focus {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
+  
+  .portfolio-after-title {
+    margin-top: 4px;
+  
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+  }
+  
+  .current {
+    color: var(--accent-color);
+    position: relative;
+  }
+  
+  .current::after {
+    border-radius: 2px;
+    position: absolute;
+    background: currentColor;
+    height: 4px;
+    width: 100%;
+    display: block;
+    left: 0;
+    bottom: -1px;
+    content: '';
+  }
+  
+  
+  
+  .link {
+    text-decoration: none;
+  }
