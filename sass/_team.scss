@@ -1,8 +1,8 @@
-.team-section {
+.team__section{
     background: #f5f4fa;
   }
   
-  .team-title {
+  .team__title {
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
@@ -12,27 +12,28 @@
     color: var(--title-text-color);
   }
   
-  .list-team {
+  .name-team__list {
     display: flex;
     list-style: none;
   }
   
-  .team-items:not(:last-child) {
+  .name-team__item:not(:last-child) {
     margin-right: 30px;
   }
   
-  .team-items {
+  .name-team__item{
     background-color: #ffffff;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-      0px 2px 1px rgba(0, 0, 0, 0.2);
+    // box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    //   0px 2px 1px rgba(0, 0, 0, 0.2);
+    
   }
   
-  .team-block-name {
+  .team__name {
     padding-top: 30px;
     padding-bottom: 30px;
   }
   
-  .title-team {
+  .team__worker {
     margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
@@ -42,7 +43,7 @@
     color: var(--title-text-color);
   }
   
-  .position-team {
+  .team__position {
     margin-bottom: 16px;
     font-size: 16px;
     line-height: 1.18;
@@ -50,13 +51,13 @@
     letter-spacing: 0.03em;
   }
   
-  .team-soc {
+  .team__list {
     display: flex;
     justify-content: center;
     gap: 10px;
   }
   
-  .team-soc-link {
+  .team__link {
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -74,7 +75,7 @@
     }
   }
   
-  .team-icons {
+  .team__icons {
     fill: currentColor;
   }
  

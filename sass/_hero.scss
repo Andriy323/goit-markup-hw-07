@@ -33,7 +33,7 @@
     line-height: 1.88;
     letter-spacing: 0.06em;
     border: none;
-    cursor: pointer;
+    
     color: var(--white-color);
     background-color: var(--accent-color);
     transition: background-color var(--anim250-cubic-bezier);
@@ -43,20 +43,18 @@
       background-color: #188ce8;
     }
   }
-  
- 
-  
-  .style-list {
+
+  .advantage__list {
     gap: 30px;
     display: flex;
     list-style: none;
   }
   
-  .style-items {
+  .advantage__items {
     width: calc((100% - 90px) / 4);
   }
   
-  .style-title {
+  .advantage__title {
     margin-top: 30px;
     margin-bottom: 10px;
     font-weight: 700;
@@ -67,8 +65,18 @@
     color: var(--title-text-color);
   }
   
-  .style-after-title {
+  .advantage__pretitle {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
   }
+
+
+  
+  
+ 
+  
+  
+
+
+  
