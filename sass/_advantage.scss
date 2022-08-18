@@ -1,5 +1,19 @@
-.title {
-  margin-top: 10px;
+.advantage__list {
+  display: flex;
+  list-style: none;
+}
+
+.advantage__list--backing {
+  gap: 30px;
+}
+
+.advantage__items {
+  width: calc((100% - 90px) / 4);
+}
+
+.advantage__title {
+  margin-top: 30px;
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -8,11 +22,23 @@
   color: var(--title-text-color);
 }
 
-.after-title {
+.advantage__text{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.advantage__pretitle {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
 }
 
 .advantage__cards {
@@ -22,55 +48,8 @@
   background-color: #f5f4fa;
   height: 120px;
   align-items: center;
-} 
-
-/* <<<---ЧЕМ МИ ЗАНЕМАЕМСЯ--->>> */
-
- .work__title {
-  margin-bottom: 50px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--title-text-color);
 }
 
-.work__section {
-  padding-top: 0;
-}
 
-.work__list {
-  display: flex;
-  list-style: none;
-}
 
-.work__list .work__items {
-  margin-right: 30px;
-  position: relative;
-}
 
-.work__pretitle {
-  display: flex;
-  position: absolute;
-  bottom: 0;
-  justify-content: center;
-  align-items: center;
-  
-  height: 70px;
-  width: 100%;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--white-color);
-  background-color: rgba(47, 48, 58, 0.8);
-}
-
-.work__items:last-child {
-  margin-right: 0;
-} 
-
-  

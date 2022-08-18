@@ -1,13 +1,19 @@
+@import './utils/variables';
+@import './utils/reset';
+
+@import './body';
 @import './header';
+@import './components/logo';
 @import './hero';
-@import './components/modal';
+@import './advantage';
+@import './working';
 @import './team';
 @import './client';
 @import './footer';
-@import './body';
+
+@import './components/modal';
+
 @import './portfolio.header';
 @import './portfolio.main';
-@import './advantage';
-@import './utils/variables';
-@import './components/logo';
+
 

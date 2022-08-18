@@ -44,32 +44,7 @@
     }
   }
 
-  .advantage__list {
-    gap: 30px;
-    display: flex;
-    list-style: none;
-  }
-  
-  .advantage__items {
-    width: calc((100% - 90px) / 4);
-  }
-  
-  .advantage__title {
-    margin-top: 30px;
-    margin-bottom: 10px;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--title-text-color);
-  }
-  
-  .advantage__pretitle {
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-  }
+ 
 
 
   
